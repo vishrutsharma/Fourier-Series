@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Vishrut/Programming/PersonalProjects/fourier_series/build",
+  "command": "C:\\Vishrut\\Paths\\mingw64\\bin\\g++.exe -DSDL_MAIN_HANDLED @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\Vishrut\\Programming\\PersonalProjects\\fourier_series\\src\\main.cpp",
+  "file": "C:/Vishrut/Programming/PersonalProjects/fourier_series/src/main.cpp",
+  "output": "CMakeFiles/main.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Vishrut/Programming/PersonalProjects/fourier_series/build",
+  "command": "C:\\Vishrut\\Paths\\mingw64\\bin\\g++.exe -DSDL_MAIN_HANDLED @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Application.cpp.obj -c C:\\Vishrut\\Programming\\PersonalProjects\\fourier_series\\src\\Application.cpp",
+  "file": "C:/Vishrut/Programming/PersonalProjects/fourier_series/src/Application.cpp",
+  "output": "CMakeFiles/main.dir/src/Application.cpp.obj"
+},
+{
+  "directory": "C:/Vishrut/Programming/PersonalProjects/fourier_series/build",
+  "command": "C:\\Vishrut\\Paths\\mingw64\\bin\\g++.exe -DSDL_MAIN_HANDLED @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Window.cpp.obj -c C:\\Vishrut\\Programming\\PersonalProjects\\fourier_series\\src\\Window.cpp",
+  "file": "C:/Vishrut/Programming/PersonalProjects/fourier_series/src/Window.cpp",
+  "output": "CMakeFiles/main.dir/src/Window.cpp.obj"
+},
+{
+  "directory": "C:/Vishrut/Programming/PersonalProjects/fourier_series/build",
+  "command": "C:\\Vishrut\\Paths\\mingw64\\bin\\g++.exe -DSDL_MAIN_HANDLED @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\main.dir\\src\\Graph.cpp.obj -c C:\\Vishrut\\Programming\\PersonalProjects\\fourier_series\\src\\Graph.cpp",
+  "file": "C:/Vishrut/Programming/PersonalProjects/fourier_series/src/Graph.cpp",
+  "output": "CMakeFiles/main.dir/src/Graph.cpp.obj"
+}
+]

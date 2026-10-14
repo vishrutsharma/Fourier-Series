@@ -1,0 +1,91 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Vishrut/Paths/mingw64/include/c++/14.1.0",
+						"C:/Vishrut/Paths/mingw64/include/c++/14.1.0/x86_64-w64-mingw32",
+						"C:/Vishrut/Paths/mingw64/include/c++/14.1.0/backward",
+						"C:/Vishrut/Paths/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include",
+						"C:/Vishrut/Paths/mingw64/include",
+						"C:/Vishrut/Paths/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0/include-fixed",
+						"C:/Vishrut/Paths/mingw64/x86_64-w64-mingw32/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Vishrut/Paths/mingw64/lib/gcc/x86_64-w64-mingw32/14.1.0",
+						"C:/Vishrut/Paths/mingw64/lib/gcc",
+						"C:/Vishrut/Paths/mingw64/x86_64-w64-mingw32/lib",
+						"C:/Vishrut/Paths/mingw64/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"mingwex",
+						"kernel32",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"mingwex",
+						"kernel32"
+					]
+				},
+				"path" : "C:/Vishrut/Paths/mingw64/bin/g++.exe",
+				"version" : "14.1.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"m",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Vishrut/Paths/mingw64/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
