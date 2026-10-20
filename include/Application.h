@@ -2,6 +2,7 @@
 
 #include "Window.h"
 #include "Graph.h"
+#include "CoreComponents.h"
 
 class Application
 {
@@ -24,4 +25,5 @@ private:
 
     int m_lastMouseX = 0;
     int m_lastMouseY = 0;
+    CC_Graph::WaveFunction m_function{};
 };

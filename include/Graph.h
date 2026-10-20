@@ -1,5 +1,6 @@
 #pragma once
 #include <SDL2/SDL.h>
+#include "CoreComponents.h"
 
 class Graph
 {
@@ -22,9 +23,8 @@ public:
         int width,
         int height) const;
 
-    void drawSine(
-        SDL_Renderer *renderer,
-        int width) const;
+    void drawGraph(
+        SDL_Renderer *renderer, int width, CC_Graph::WaveFunction &function) const;
 
 private:
     float m_originX;

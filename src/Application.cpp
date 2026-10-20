@@ -1,6 +1,7 @@
 #include "Application.h"
-
+#include <cmath>
 #include <iostream>
+#include <TimeManager.h>
 
 Application::Application() = default;
 
@@ -23,16 +24,11 @@ bool Application::initialize()
         1200,
         800);
 
-    // if (!m_window->isValid())
-    // {
-    //     delete m_window;
-    //     m_window = nullptr;
-
-    //     SDL_Quit();
-    //     return false;
-    // }
-
     m_running = true;
+
+    m_function.frequency = 4.5f;
+    m_function.amplitude = 1.0f;
+    m_function.funcType = CC_Graph::WaveFunctionType::SIN;
     return true;
 }
 
@@ -40,6 +36,7 @@ void Application::run()
 {
     while (m_running)
     {
+        TimeManager::GetInstance().Tick();
         handleEvents();
         render();
     }
@@ -116,8 +113,8 @@ void Application::render()
     m_window->clear();
 
     m_graph.drawGrid(renderer, width, height);
-    // m_graph.drawAxes(renderer, width, height);
-    // m_graph.drawSine(renderer, width);
+    m_graph.drawAxes(renderer, width, height);
+    m_graph.drawGraph(renderer, width, m_function);
 
     m_window->present();
 }
