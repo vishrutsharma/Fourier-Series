@@ -1,5 +1,7 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+Makefile linguist-detectable=false
+makefile linguist-detectable=false
+GNUmakefile linguist-detectable=false
+
 *.cpp linguist-language=C++
 *.h linguist-language=C++
 *.hpp linguist-language=C++
